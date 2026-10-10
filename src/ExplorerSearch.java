@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
 
 public class ExplorerSearch {
 
@@ -34,4 +32,18 @@ public class ExplorerSearch {
         // I STRONGLY RECOMMEND testing some helpers you might make too
         return -1;
     }
+
+        public static void main(String[] args) {
+
+            int[][] island = {
+                {1,1,1,3,1,1},
+                {3,2,3,1,3,1},
+                {1,1,1,1,3,3},
+                {3,1,2,1,0,1},
+                {1,1,1,2,1,1},
+            };
+            
+            PrettyPrint.prettyPrintln(island);
+        }
+
 }
